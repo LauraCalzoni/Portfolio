@@ -1,1 +1,3 @@
-# Portfolio
+# Modeling, control and simulation of an UR5 robot 
+
+Modeling and control of an UR5 robot dynamics in MATLAB Simulink/Simscape Multibody environment in order to follow a desired workspace trajectory. Offline estimation of the robot inertia matrix. Decentralized position control with offline feedforward compensation of the gravity term and LQR feedback regulator. Extensive use of the Robotics System Toolbox. 

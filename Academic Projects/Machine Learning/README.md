@@ -1,0 +1,3 @@
+# Prediction over the “Titanic” dataset 
+
+Development of a machine learning model to predict the survival status of an individual after the Titanic shipwreck, based on relevant features such as sex, age and class, using the ‘Titanic’ dataset. Prior to training the model, data preprocessing and feature engineering techniques are applied. Various machine learning algorithms are tested, such as RF, DT, SVM, and SGD, to obatin the best results, before fine-tuning the model. Assessment of its performance through K-Fold Cross-Validation, Precision, and Recall scores.

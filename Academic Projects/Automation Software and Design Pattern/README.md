@@ -1,0 +1,3 @@
+# Control and simulation of a Multibox Palletizer in Automation Studio 
+
+Control of a Multibox Palletizer to construct pallets composed by 2 layers of 14 boxes each, divided into 3 lines of boxes with two distinct orientations in each layer. The machine software design employs a hierarchical design pattern, and the machine behavior is modeled through FSMs. The management of errors and signals is also incorporated in the design. I/O bridge is accomplished using ComTCP, and a custom HMI is implemented using MappView. Simulation of the machine on Industrial Physics.
