@@ -1,0 +1,16 @@
+Hi professor,
+
+this is just a note to explain how the files are organized. 
+We have realized several IPYNB files as our project requires to follow different steps. 
+The first one to check is the Base_algorithm_project which contains the mandatory part. 
+The others implement multiple optional parts that are independent of each other. As a consequence, there is not a proper order. 
+Anyway, if you would like to follow the code as it is presented in the report, the order of the files is the following:
+I) LR_project
+II) Minimum_selection_project
+III) Project_with_ZNCC
+IV) Project_with_filters(Bilateral+NLM)
+V) Project_Postfilter
+Finally, we have made a final code (Complete_project) putting together all the good parts that actually improved our baseline algorithm.
+This one should be the last one to look at. 
+
+Thanks a lot!

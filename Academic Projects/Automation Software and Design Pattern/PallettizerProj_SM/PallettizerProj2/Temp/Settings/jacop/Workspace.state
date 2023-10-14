@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2\Logical\MainControl\Main.st" CaretLine="91" CaretColumn="5" FirstVisibleLine="19">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2\Logical\Feeder\Main.st" CaretLine="132" CaretColumn="31" FirstVisibleLine="110">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2\Logical\Crane\Main.st" CaretLine="80" CaretColumn="43" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2\Logical\PalletHandler\Main.st" CaretLine="35" CaretColumn="29" FirstVisibleLine="16">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2\Logical\Libraries\SignalMng\SignalManagement.st" CaretLine="27" CaretColumn="20" FirstVisibleLine="43">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2\Logical\SignalHandler\Main.st" CaretLine="16" CaretColumn="57" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+</State>

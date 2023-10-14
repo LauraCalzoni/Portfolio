@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles ConfigurationName="Config1" ActiveConfigurationFile="\Logical\Feeder\Main.st"><ConfigurationFile Placement="\Logical\MainControl\Main.st,MainControl,2,44,0,1,-1,-1,-1,-1,2,30,1578,706"/><ConfigurationFile Placement="\Logical\Feeder\Main.st,Feeder,2,44,0,1,-1,-1,-1,-1,2,30,1578,706"/><ConfigurationFile Placement="\Logical\Feeder\Types.typ,Feeder,1,44,0,1,-1,-1,-1,-1,2,30,1578,706"/><ConfigurationFile Placement="\Logical\Libraries\GenericDev\GenericDevice.st,Libraries.GenericDev,2,44,0,1,-1,-1,-1,-1,2,30,1578,706"/></ConfigurationFiles></Project>

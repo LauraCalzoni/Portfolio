@@ -1,0 +1,11 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=MainContro 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=155 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           START_MACHINE                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                               MainState                                     DINT    0 "                                                               2"    0    4    1   10    1    0 e,0,Init
+
+                         LayerPositioned                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                              CraneHomed                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                               PushLayer                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   Reset                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          OnPhaseStopHMI                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

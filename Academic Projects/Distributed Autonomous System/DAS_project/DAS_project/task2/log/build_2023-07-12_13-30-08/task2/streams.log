@@ -1,0 +1,28 @@
+[1.327s] Invoking command in '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/task2/src/task2': PYTHONPATH=/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/task2 build --build-base /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build install --prefix /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2 --record /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log --single-version-externally-managed
+[1.907s] running egg_info
+[1.916s] writing ../../../build/task2/task2.egg-info/PKG-INFO
+[1.923s] writing dependency_links to ../../../build/task2/task2.egg-info/dependency_links.txt
+[1.931s] writing entry points to ../../../build/task2/task2.egg-info/entry_points.txt
+[1.937s] writing requirements to ../../../build/task2/task2.egg-info/requires.txt
+[1.946s] writing top-level names to ../../../build/task2/task2.egg-info/top_level.txt
+[2.121s] reading manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'
+[2.136s] writing manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'
+[2.139s] running build
+[2.141s] running build_py
+[2.161s] running install
+[2.168s] running install_lib
+[2.203s] running install_data
+[2.218s] running install_egg_info
+[2.229s] removing '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2-0.0.0-py3.8.egg-info' (and everything under it)
+[2.248s] Copying ../../../build/task2/task2.egg-info to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2-0.0.0-py3.8.egg-info
+[2.329s] running install_scripts
+[2.410s] Installing goal_visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[2.418s] Installing obstacle_visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[2.428s] Installing the_agent_collision script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[2.436s] Installing the_agent_complete script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[2.445s] Installing the_agent_formation script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[2.454s] Installing the_agent_leader_follower script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[2.462s] Installing the_agent_obstacle_avoidance script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[2.471s] Installing visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[2.489s] writing list of installed files to '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log'
+[2.553s] Invoked command in '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/task2/src/task2' returned '0': PYTHONPATH=/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/task2 build --build-base /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build install --prefix /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2 --record /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log --single-version-externally-managed

@@ -1,0 +1,13 @@
+VAR
+	StopRequest : BOOL := FALSE;
+	Box : INT;
+	Format : INT := 1;
+	Line : INT := 1;
+	F_TRIG_0 : F_TRIG;
+	LaserSensor2 : BOOL;
+	LayerOn : BOOL;
+	Feeder : FeederStruct;
+	LastLayer : BOOL;
+	PrevState : FeederStateType;
+	ExpectedBox : INT;
+END_VAR

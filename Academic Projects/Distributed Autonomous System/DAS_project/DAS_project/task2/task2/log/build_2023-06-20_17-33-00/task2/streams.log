@@ -1,0 +1,24 @@
+[2.068s] Invoking command in '/home/luca/DAS_ros2_files/task2/build/task2': PYTHONPATH=/home/luca/DAS_ros2_files/task2/build/task2/prefix_override:/home/luca/DAS_ros2_files/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luca/DAS_ros2_files/task2/build/task2/build --no-deps install_data
+[2.703s] running develop
+[3.062s] running egg_info
+[3.063s] writing task2.egg-info/PKG-INFO
+[3.065s] writing dependency_links to task2.egg-info/dependency_links.txt
+[3.067s] writing entry points to task2.egg-info/entry_points.txt
+[3.070s] writing requirements to task2.egg-info/requires.txt
+[3.071s] writing top-level names to task2.egg-info/top_level.txt
+[3.160s] reading manifest file 'task2.egg-info/SOURCES.txt'
+[3.164s] writing manifest file 'task2.egg-info/SOURCES.txt'
+[3.252s] running build_ext
+[3.253s] Creating /home/luca/DAS_ros2_files/task2/install/task2/lib/python3.8/site-packages/task2.egg-link (link to .)
+[3.255s] Installing goal_visualizer script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[3.256s] Installing line_visualizer script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[3.256s] Installing the_agent_collision script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[3.257s] Installing the_agent_complete script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[3.258s] Installing the_agent_formation script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[3.258s] Installing the_agent_leader_follower script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[3.263s] Installing visualizer script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[3.266s] 
+[3.266s] Installed /home/luca/DAS_ros2_files/task2/build/task2
+[3.266s] running install_data
+[3.267s] copying launch/task2_leader_follower.launch.py -> /home/luca/DAS_ros2_files/task2/install/task2/share/task2
+[3.328s] Invoked command in '/home/luca/DAS_ros2_files/task2/build/task2' returned '0': PYTHONPATH=/home/luca/DAS_ros2_files/task2/build/task2/prefix_override:/home/luca/DAS_ros2_files/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luca/DAS_ros2_files/task2/build/task2/build --no-deps install_data

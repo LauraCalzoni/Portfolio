@@ -1,0 +1,3 @@
+VAR
+	SignalManager : SignalManagement;
+END_VAR

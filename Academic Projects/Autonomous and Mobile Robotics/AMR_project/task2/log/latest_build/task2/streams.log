@@ -1,0 +1,25 @@
+[3.039s] Invoking command in '/home/luca/AMR_project/task2/build/task2': PYTHONPATH=/home/luca/AMR_project/task2/build/task2/prefix_override:/home/luca/AMR_project/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luca/AMR_project/task2/build/task2/build --no-deps install_data
+[4.106s] running develop
+[4.774s] running egg_info
+[4.775s] creating task2.egg-info
+[4.777s] writing task2.egg-info/PKG-INFO
+[4.779s] writing dependency_links to task2.egg-info/dependency_links.txt
+[4.780s] writing entry points to task2.egg-info/entry_points.txt
+[4.780s] writing requirements to task2.egg-info/requires.txt
+[4.780s] writing top-level names to task2.egg-info/top_level.txt
+[4.789s] writing manifest file 'task2.egg-info/SOURCES.txt'
+[5.006s] reading manifest file 'task2.egg-info/SOURCES.txt'
+[5.007s] writing manifest file 'task2.egg-info/SOURCES.txt'
+[5.210s] running build_ext
+[5.218s] Creating /home/luca/AMR_project/task2/install/task2/lib/python3.8/site-packages/site.py
+[5.218s] Creating /home/luca/AMR_project/task2/install/task2/lib/python3.8/site-packages/task2.egg-link (link to .)
+[5.218s] 
+[5.218s] Installed /home/luca/AMR_project/task2/build/task2
+[5.218s] running install_data
+[5.218s] creating /home/luca/AMR_project/task2/install/task2/share/ament_index
+[5.218s] creating /home/luca/AMR_project/task2/install/task2/share/ament_index/resource_index
+[5.219s] creating /home/luca/AMR_project/task2/install/task2/share/ament_index/resource_index/packages
+[5.219s] copying resource/task2 -> /home/luca/AMR_project/task2/install/task2/share/ament_index/resource_index/packages
+[5.219s] copying package.xml -> /home/luca/AMR_project/task2/install/task2/share/task2
+[5.219s] copying launch/task2.launch.py -> /home/luca/AMR_project/task2/install/task2/share/task2
+[5.342s] Invoked command in '/home/luca/AMR_project/task2/build/task2' returned '0': PYTHONPATH=/home/luca/AMR_project/task2/build/task2/prefix_override:/home/luca/AMR_project/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luca/AMR_project/task2/build/task2/build --no-deps install_data

@@ -1,0 +1,4 @@
+position.x = -5.0
+position.y = -4.0
+position.z = 0.0
+orientation.w = 1.0

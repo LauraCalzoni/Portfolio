@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tracepoints>
+  <Tracepoint>
+    <Enabled>true</Enabled>
+    <File>Logical/Crane/Main.st</File>
+    <Line>107</Line>
+    <Condition></Condition>
+    <Task>Crane</Task>
+  </Tracepoint>
+</Tracepoints>

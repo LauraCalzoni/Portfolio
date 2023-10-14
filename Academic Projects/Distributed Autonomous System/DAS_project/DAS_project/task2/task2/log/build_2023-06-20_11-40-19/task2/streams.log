@@ -1,0 +1,33 @@
+[1.586s] Invoking command in '/home/luca/DAS_ros2_files/task2/build/task2': PYTHONPATH=/home/luca/DAS_ros2_files/task2/build/task2/prefix_override:/home/luca/DAS_ros2_files/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luca/DAS_ros2_files/task2/build/task2/build --no-deps install_data
+[2.087s] running develop
+[2.377s] running egg_info
+[2.378s] creating task2.egg-info
+[2.378s] writing task2.egg-info/PKG-INFO
+[2.378s] writing dependency_links to task2.egg-info/dependency_links.txt
+[2.379s] writing entry points to task2.egg-info/entry_points.txt
+[2.379s] writing requirements to task2.egg-info/requires.txt
+[2.379s] writing top-level names to task2.egg-info/top_level.txt
+[2.383s] writing manifest file 'task2.egg-info/SOURCES.txt'
+[2.451s] reading manifest file 'task2.egg-info/SOURCES.txt'
+[2.452s] writing manifest file 'task2.egg-info/SOURCES.txt'
+[2.544s] running build_ext
+[2.544s] Creating /home/luca/DAS_ros2_files/task2/install/task2/lib/python3.8/site-packages/site.py
+[2.548s] Creating /home/luca/DAS_ros2_files/task2/install/task2/lib/python3.8/site-packages/task2.egg-link (link to .)
+[2.549s] Installing line_visualizer script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[2.550s] Installing the_agent_collision script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[2.550s] Installing the_agent_formation script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[2.550s] Installing the_agent_leader_follower script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[2.551s] Installing visualizer script to /home/luca/DAS_ros2_files/task2/install/task2/lib/task2
+[2.551s] 
+[2.552s] Installed /home/luca/DAS_ros2_files/task2/build/task2
+[2.552s] running install_data
+[2.552s] creating /home/luca/DAS_ros2_files/task2/install/task2/share/ament_index
+[2.552s] creating /home/luca/DAS_ros2_files/task2/install/task2/share/ament_index/resource_index
+[2.552s] creating /home/luca/DAS_ros2_files/task2/install/task2/share/ament_index/resource_index/packages
+[2.552s] copying resource/task2 -> /home/luca/DAS_ros2_files/task2/install/task2/share/ament_index/resource_index/packages
+[2.552s] copying package.xml -> /home/luca/DAS_ros2_files/task2/install/task2/share/task2
+[2.552s] copying launch/task2_formation.launch.py -> /home/luca/DAS_ros2_files/task2/install/task2/share/task2
+[2.553s] copying launch/task2_leader_follower.launch.py -> /home/luca/DAS_ros2_files/task2/install/task2/share/task2
+[2.553s] copying launch/task2_collision.launch.py -> /home/luca/DAS_ros2_files/task2/install/task2/share/task2
+[2.553s] copying resource/rviz_config.rviz -> /home/luca/DAS_ros2_files/task2/install/task2/share/task2
+[2.621s] Invoked command in '/home/luca/DAS_ros2_files/task2/build/task2' returned '0': PYTHONPATH=/home/luca/DAS_ros2_files/task2/build/task2/prefix_override:/home/luca/DAS_ros2_files/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luca/DAS_ros2_files/task2/build/task2/build --no-deps install_data

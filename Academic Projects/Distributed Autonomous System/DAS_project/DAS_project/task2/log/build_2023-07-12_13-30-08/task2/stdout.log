@@ -1,0 +1,26 @@
+running egg_info
+writing ../../../build/task2/task2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/task2/task2.egg-info/dependency_links.txt
+writing entry points to ../../../build/task2/task2.egg-info/entry_points.txt
+writing requirements to ../../../build/task2/task2.egg-info/requires.txt
+writing top-level names to ../../../build/task2/task2.egg-info/top_level.txt
+reading manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../../build/task2/task2.egg-info to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing goal_visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+Installing obstacle_visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+Installing the_agent_collision script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+Installing the_agent_complete script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+Installing the_agent_formation script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+Installing the_agent_leader_follower script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+Installing the_agent_obstacle_avoidance script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+Installing visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+writing list of installed files to '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log'

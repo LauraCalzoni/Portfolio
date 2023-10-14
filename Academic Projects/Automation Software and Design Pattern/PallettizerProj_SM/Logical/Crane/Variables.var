@@ -1,0 +1,9 @@
+VAR
+	Crane : CraneStruct;
+	NextLayer : INT := 1;
+	PrevState : CraneStateType := GoBack;
+	CraneState : CraneStateType := 0;
+	BoxCraneAxisBusy : BOOL;
+	NextState : CraneStateType;
+	CompleatingPallet : BOOL;
+END_VAR

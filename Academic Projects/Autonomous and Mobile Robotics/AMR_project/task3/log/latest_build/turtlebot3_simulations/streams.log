@@ -1,0 +1,21 @@
+[0.052s] Invoking command in '/home/luca/AMR_project/task3/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/luca/AMR_project/task3/install/turtlebot3_gazebo:/home/luca/AMR_project/task3/install/turtlebot3_simulations:/home/luca/AMR_project/task3/install/loc_and_nav:/opt/ros/galactic /usr/bin/cmake --build /home/luca/AMR_project/task3/build/turtlebot3_simulations -- -j2 -l2
+[0.171s] Invoked command in '/home/luca/AMR_project/task3/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/luca/AMR_project/task3/install/turtlebot3_gazebo:/home/luca/AMR_project/task3/install/turtlebot3_simulations:/home/luca/AMR_project/task3/install/loc_and_nav:/opt/ros/galactic /usr/bin/cmake --build /home/luca/AMR_project/task3/build/turtlebot3_simulations -- -j2 -l2
+[0.224s] Invoking command in '/home/luca/AMR_project/task3/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/luca/AMR_project/task3/install/turtlebot3_gazebo:/home/luca/AMR_project/task3/install/turtlebot3_simulations:/home/luca/AMR_project/task3/install/loc_and_nav:/opt/ros/galactic /usr/bin/cmake --install /home/luca/AMR_project/task3/build/turtlebot3_simulations
+[0.242s] -- Install configuration: ""
+[0.243s] -- Execute custom install script
+[0.244s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[0.245s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[0.245s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[0.246s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[0.247s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[0.247s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[0.248s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[0.248s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[0.248s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[0.249s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[0.249s] -- Symlinking: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[0.263s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[0.263s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[0.263s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[0.264s] -- Up-to-date symlink: /home/luca/AMR_project/task3/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[0.272s] Invoked command in '/home/luca/AMR_project/task3/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/luca/AMR_project/task3/install/turtlebot3_gazebo:/home/luca/AMR_project/task3/install/turtlebot3_simulations:/home/luca/AMR_project/task3/install/loc_and_nav:/opt/ros/galactic /usr/bin/cmake --install /home/luca/AMR_project/task3/build/turtlebot3_simulations

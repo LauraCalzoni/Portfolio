@@ -1,0 +1,21 @@
+Mon Jul 17 12:27:24 2023
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Mon Jul 17 12:27:24 2023
+No ARsim registration found!
+
+Mon Jul 17 12:27:24 2023
+InstanceName: 01d9b899470ece40
+
+Mon Jul 17 12:27:24 2023
+WorkingDirectory: C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Simulation\Config1\X20CP1382\
+
+Mon Jul 17 12:27:24 2023
+COMMAND_COLDSTART
+
+Mon Jul 17 12:27:26 2023
+Version: A4.83
+
+Mon Jul 17 12:30:24 2023
+COMMAND_TERMINATE
+

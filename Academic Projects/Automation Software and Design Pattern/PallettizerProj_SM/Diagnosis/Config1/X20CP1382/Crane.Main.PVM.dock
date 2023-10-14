@@ -1,0 +1,202 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Crane 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=159 Type=0 Scope=2 Force=0 Index=90 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   Crane                              CraneStruct    0 "                                                               *"    0   24    1    0    1    1         
+                                   State                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,Wait
+
+                               PrevState                                     DINT    0 "                                                               *"    1    4    1   10    0    0 e,0,Wait
+
+                                   Start                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Vacuum                            GenericDevice    0 "                                                               *"    1   24    1    0    0    0         
+                         DeviceOperation                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                              DeviceType                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                     DeviceEnabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceDisabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceClock                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                        DeviceEnableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                       DeviceDisableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                DeviceDiagnosticsEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                      DeviceEnablePreset                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DeviceEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          DeviceDisabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            EnableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DisableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                DeviceEnabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+               DeviceDisabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceActuatorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceNotInitialized                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceEnableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                    DeviceDisableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                             DeviceState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,Devi
+
+                             DeviceTimer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                           DeviceTimeout                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    INIT                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                     RUN                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                   Vacuum_enable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                  Vacuum_disable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                        VacuumEnableTime                                      INT    0 "                                                              80"    1    3    1   10    0    0         
+                       VacuumDisableTime                                      INT    0 "                                                              80"    1    3    1   10    0    0         
+                               Cartboard                            GenericDevice    0 "                                                               *"    1   24    1    0    0    0         
+                         DeviceOperation                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                              DeviceType                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                     DeviceEnabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceDisabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceClock                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                        DeviceEnableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                       DeviceDisableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                DeviceDiagnosticsEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                      DeviceEnablePreset                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DeviceEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          DeviceDisabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            EnableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DisableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                DeviceEnabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+               DeviceDisabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceActuatorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceNotInitialized                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceEnableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                    DeviceDisableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                             DeviceState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,Devi
+
+                             DeviceTimer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                           DeviceTimeout                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    INIT                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                     RUN                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                Cartboard_enable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+               Cartboard_disable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                     CartboardEnableTime                                      INT    0 "                                                              60"    1    3    1   10    0    0         
+                    CartboardDisableTime                                      INT    0 "                                                              60"    1    3    1   10    0    0         
+                               SlideRail                            GenericDevice    0 "                                                               *"    1   24    1    0    0    0         
+                         DeviceOperation                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                              DeviceType                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                     DeviceEnabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceDisabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceClock                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                        DeviceEnableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                       DeviceDisableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                DeviceDiagnosticsEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                      DeviceEnablePreset                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DeviceEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          DeviceDisabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            EnableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DisableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                DeviceEnabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+               DeviceDisabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceActuatorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceNotInitialized                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceEnableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                    DeviceDisableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                             DeviceState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,Devi
+
+                             DeviceTimer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                           DeviceTimeout                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    INIT                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                     RUN                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                SlideRail_enable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+               SlideRail_disable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                     SlideRailEnableTime                                      INT    0 "                                                              60"    1    3    1   10    0    0         
+                    SlideRailDisableTime                                      INT    0 "                                                              60"    1    3    1   10    0    0         
+                                 PusherZ                            GenericDevice    0 "                                                               *"    1   24    1    0    0    0         
+                         DeviceOperation                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                              DeviceType                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                     DeviceEnabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceDisabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceClock                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                        DeviceEnableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                       DeviceDisableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                DeviceDiagnosticsEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                      DeviceEnablePreset                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DeviceEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          DeviceDisabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            EnableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DisableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                DeviceEnabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+               DeviceDisabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceActuatorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceNotInitialized                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceEnableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                    DeviceDisableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                             DeviceState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,Devi
+
+                             DeviceTimer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                           DeviceTimeout                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    INIT                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                     RUN                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                  PusherZ_enable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 PusherZ_disable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                       PusherZEnableTime                                      INT    0 "                                                              60"    1    3    1   10    0    0         
+                      PusherZDisableTime                                      INT    0 "                                                              60"    1    3    1   10    0    0         
+                                 PusherX                            GenericDevice    0 "                                                               *"    1   24    1    0    0    0         
+                         DeviceOperation                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                              DeviceType                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                     DeviceEnabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceDisabledSensor                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceClock                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                        DeviceEnableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                       DeviceDisableTime                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                DeviceDiagnosticsEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                      DeviceEnablePreset                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DeviceEnabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          DeviceDisabled                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            EnableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                           DisableDevice                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                DeviceEnabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+               DeviceDisabledSensorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceActuatorFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                    DeviceNotInitialized                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                     DeviceEnableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                    DeviceDisableRequest                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                             DeviceState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,Devi
+
+                             DeviceTimer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                           DeviceTimeout                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                    INIT                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                     RUN                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                  PusherX_enable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 PusherX_disable_request                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                       PusherXEnableTime                                      INT    0 "                                                              60"    1    3    1   10    0    0         
+                      PusherXDisableTime                                      INT    0 "                                                              60"    1    3    1   10    0    0         
+                             GantryCrane                              GenericAxis    0 "                                                               *"    1   24    1    0    0    0         
+                                 Command                                     WORD    0 "                                                               *"    2   18    1   10    0    0        b
+                          ActualPosition                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                          ActualVelocity                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             NewSetPoint                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             DeviceTimer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                              TGT_SENSOR                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   Reset                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          TargetVelocity                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                          TargetPosition                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                              InPosition                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              InVelocity                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                AxisBusy                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               AxisState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,Chec
+
+                                   Timer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+              GantryCranePositionReached                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                BoxCrane                              GenericAxis    0 "                                                               *"    1   24    1    0    0    0         
+                                 Command                                     WORD    0 "                                                               *"    2   18    1   10    0    0        b
+                          ActualPosition                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                          ActualVelocity                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             NewSetPoint                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             DeviceTimer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                              TGT_SENSOR                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   Reset                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          TargetVelocity                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                          TargetPosition                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                              InPosition                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              InVelocity                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                AxisBusy                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                               AxisState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,Chec
+
+                                   Timer                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                 BoxCranePositionReached                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                               PrevState                                     DINT    0 "                                                               5"    0    4    1   10    1    0 e,0,Wait
+

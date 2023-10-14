@@ -1,0 +1,3 @@
+VAR
+	MainState : MainStateType;
+END_VAR

@@ -1,0 +1,5 @@
+VAR
+	Pallet : PalletStruct;
+	PrevState : PalletStateType;
+	NumberPallet : INT;
+END_VAR

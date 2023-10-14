@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-12-21T17:04:37.104395",
+    "startedAt": "2022-12-21T17:04:36.935184",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\danis\\OneDrive\\Desktop\\Automation_engineering\\Coding\\AMR\\amrrl\\run\\train.py",
+    "codePath": "Coding\\AMR\\amrrl\\run\\train.py",
+    "git": {
+        "remote": "https://github.com/Daniele1996/Automation_engineering.git",
+        "commit": "fb7aca0ae7c3ef93e2e65ac43a914d19ca8cf189"
+    },
+    "email": "dani.simonazzi@gmail.com",
+    "root": "C:/Users/danis/OneDrive/Desktop/Automation_engineering",
+    "host": "BigBrain",
+    "username": "danis",
+    "executable": "C:\\Users\\danis\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2803.0,
+        "min": 0.0,
+        "max": 2803.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2803.0,
+            "min": 0.0,
+            "max": 2803.0
+        }
+    ],
+    "disk": {
+        "total": 459.91601181030273,
+        "used": 144.51278686523438
+    },
+    "memory": {
+        "total": 15.681163787841797
+    }
+}

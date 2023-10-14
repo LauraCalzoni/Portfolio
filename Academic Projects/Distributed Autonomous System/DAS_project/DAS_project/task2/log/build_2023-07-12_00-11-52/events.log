@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.002397] (task2) JobQueued: {'identifier': 'task2', 'dependencies': OrderedDict()}
+[0.004228] (task2) JobStarted: {'identifier': 'task2'}
+[0.094434] (-) TimerEvent: {}
+[0.196055] (-) TimerEvent: {}
+[0.297769] (-) TimerEvent: {}
+[0.399089] (-) TimerEvent: {}
+[0.500383] (-) TimerEvent: {}
+[0.602106] (-) TimerEvent: {}
+[0.703701] (-) TimerEvent: {}
+[0.805306] (-) TimerEvent: {}
+[0.906890] (-) TimerEvent: {}
+[1.008801] (-) TimerEvent: {}
+[1.111059] (-) TimerEvent: {}
+[1.212852] (-) TimerEvent: {}
+[1.314670] (-) TimerEvent: {}
+[1.416485] (-) TimerEvent: {}
+[1.517978] (-) TimerEvent: {}
+[1.619507] (-) TimerEvent: {}
+[1.720707] (-) TimerEvent: {}
+[1.822429] (-) TimerEvent: {}
+[1.923809] (-) TimerEvent: {}
+[2.029894] (-) TimerEvent: {}
+[2.131433] (-) TimerEvent: {}
+[2.232593] (-) TimerEvent: {}
+[2.333952] (-) TimerEvent: {}
+[2.435541] (-) TimerEvent: {}
+[2.487746] (task2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/task2', 'build', '--build-base', '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build', 'install', '--prefix', '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2', '--record', '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log', '--single-version-externally-managed'], 'cwd': '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/task2/src/task2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'luca', 'LC_TIME': 'it_IT.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '935', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/luca', 'OLDPWD': '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated', 'DESKTOP_SESSION': 'xubuntu', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'it_IT.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'luca', 'WINDOWID': '71303413', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/luca-VirtualBox:@/tmp/.ICE-unix/813,unix/luca-VirtualBox:/tmp/.ICE-unix/813', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/luca/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/luca', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'XDG_VTNR': '7', 'PWD': '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.536167] (-) TimerEvent: {}
+[2.637471] (-) TimerEvent: {}
+[2.738900] (-) TimerEvent: {}
+[2.840410] (-) TimerEvent: {}
+[2.941934] (-) TimerEvent: {}
+[3.041188] (task2) StdoutLine: {'line': b'running egg_info\n'}
+[3.043168] (-) TimerEvent: {}
+[3.045843] (task2) StdoutLine: {'line': b'creating ../../../build/task2/task2.egg-info\n'}
+[3.051721] (task2) StdoutLine: {'line': b'writing ../../../build/task2/task2.egg-info/PKG-INFO\n'}
+[3.063329] (task2) StdoutLine: {'line': b'writing dependency_links to ../../../build/task2/task2.egg-info/dependency_links.txt\n'}
+[3.072074] (task2) StdoutLine: {'line': b'writing entry points to ../../../build/task2/task2.egg-info/entry_points.txt\n'}
+[3.078784] (task2) StdoutLine: {'line': b'writing requirements to ../../../build/task2/task2.egg-info/requires.txt\n'}
+[3.084440] (task2) StdoutLine: {'line': b'writing top-level names to ../../../build/task2/task2.egg-info/top_level.txt\n'}
+[3.108879] (task2) StdoutLine: {'line': b"writing manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'\n"}
+[3.143523] (-) TimerEvent: {}
+[3.214093] (task2) StdoutLine: {'line': b"reading manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'\n"}
+[3.220345] (task2) StdoutLine: {'line': b"writing manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'\n"}
+[3.224517] (task2) StdoutLine: {'line': b'running build\n'}
+[3.225868] (task2) StdoutLine: {'line': b'running build_py\n'}
+[3.229757] (task2) StdoutLine: {'line': b'creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build\n'}
+[3.232994] (task2) StdoutLine: {'line': b'creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib\n'}
+[3.236236] (task2) StdoutLine: {'line': b'creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.239602] (task2) StdoutLine: {'line': b'copying task2/goal_visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.243663] (-) TimerEvent: {}
+[3.247910] (task2) StdoutLine: {'line': b'copying task2/obstacle_visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.256611] (task2) StdoutLine: {'line': b'copying task2/the_agent_collision.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.265039] (task2) StdoutLine: {'line': b'copying task2/the_agent_complete.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.275604] (task2) StdoutLine: {'line': b'copying task2/the_agent_formation.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.283989] (task2) StdoutLine: {'line': b'copying task2/the_agent_leader_follower.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.293601] (task2) StdoutLine: {'line': b'copying task2/the_agent_obstacle_avoidance.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.306238] (task2) StdoutLine: {'line': b'copying task2/visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.316575] (task2) StdoutLine: {'line': b'copying task2/__init__.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2\n'}
+[3.327140] (task2) StdoutLine: {'line': b'running install\n'}
+[3.333058] (task2) StdoutLine: {'line': b'running install_lib\n'}
+[3.341882] (task2) StdoutLine: {'line': b'creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.345065] (-) TimerEvent: {}
+[3.347021] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/goal_visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.358093] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/obstacle_visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.367813] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_collision.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.382275] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_complete.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.392557] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_formation.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.404613] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_leader_follower.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.415857] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_obstacle_avoidance.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.427507] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.438864] (task2) StdoutLine: {'line': b'copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/__init__.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2\n'}
+[3.445311] (-) TimerEvent: {}
+[3.451266] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/goal_visualizer.py to goal_visualizer.cpython-38.pyc\n'}
+[3.468681] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/obstacle_visualizer.py to obstacle_visualizer.cpython-38.pyc\n'}
+[3.484076] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_collision.py to the_agent_collision.cpython-38.pyc\n'}
+[3.500003] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_complete.py to the_agent_complete.cpython-38.pyc\n'}
+[3.515129] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_formation.py to the_agent_formation.cpython-38.pyc\n'}
+[3.545722] (-) TimerEvent: {}
+[3.548434] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_leader_follower.py to the_agent_leader_follower.cpython-38.pyc\n'}
+[3.571829] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_obstacle_avoidance.py to the_agent_obstacle_avoidance.cpython-38.pyc\n'}
+[3.592273] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/visualizer.py to visualizer.cpython-38.pyc\n'}
+[3.605145] (task2) StdoutLine: {'line': b'byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/__init__.py to __init__.cpython-38.pyc\n'}
+[3.615082] (task2) StdoutLine: {'line': b'running install_data\n'}
+[3.619989] (task2) StdoutLine: {'line': b'creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/ament_index\n'}
+[3.623539] (task2) StdoutLine: {'line': b'creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/ament_index/resource_index\n'}
+[3.626716] (task2) StdoutLine: {'line': b'creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/ament_index/resource_index/packages\n'}
+[3.631472] (task2) StdoutLine: {'line': b'copying resource/task2 -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/ament_index/resource_index/packages\n'}
+[3.639754] (task2) StdoutLine: {'line': b'copying package.xml -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2\n'}
+[3.646221] (-) TimerEvent: {}
+[3.652368] (task2) StdoutLine: {'line': b'copying launch/task2_formation.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2\n'}
+[3.712075] (task2) StdoutLine: {'line': b'copying launch/task2_leader_follower.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2\n'}
+[3.755092] (-) TimerEvent: {}
+[3.767961] (task2) StdoutLine: {'line': b'copying launch/task2_collision.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2\n'}
+[3.820111] (task2) StdoutLine: {'line': b'copying launch/task2_complete.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2\n'}
+[3.864301] (-) TimerEvent: {}
+[3.875061] (task2) StdoutLine: {'line': b'copying launch/task2_obstacle_avoidance.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2\n'}
+[3.927668] (task2) StdoutLine: {'line': b'copying resource/rviz_config.rviz -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2\n'}
+[3.964428] (-) TimerEvent: {}
+[3.974581] (task2) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.986104] (task2) StdoutLine: {'line': b'Copying ../../../build/task2/task2.egg-info to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2-0.0.0-py3.8.egg-info\n'}
+[4.065196] (-) TimerEvent: {}
+[4.082967] (task2) StdoutLine: {'line': b'running install_scripts\n'}
+[4.165522] (-) TimerEvent: {}
+[4.171461] (task2) StdoutLine: {'line': b'Installing goal_visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2\n'}
+[4.182821] (task2) StdoutLine: {'line': b'Installing obstacle_visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2\n'}
+[4.191045] (task2) StdoutLine: {'line': b'Installing the_agent_collision script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2\n'}
+[4.204989] (task2) StdoutLine: {'line': b'Installing the_agent_complete script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2\n'}
+[4.217022] (task2) StdoutLine: {'line': b'Installing the_agent_formation script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2\n'}
+[4.226381] (task2) StdoutLine: {'line': b'Installing the_agent_leader_follower script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2\n'}
+[4.238405] (task2) StdoutLine: {'line': b'Installing the_agent_obstacle_avoidance script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2\n'}
+[4.250333] (task2) StdoutLine: {'line': b'Installing visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2\n'}
+[4.261150] (task2) StdoutLine: {'line': b"writing list of installed files to '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log'\n"}
+[4.265930] (-) TimerEvent: {}
+[4.367337] (-) TimerEvent: {}
+[4.397183] (task2) CommandEnded: {'returncode': 0}
+[4.467613] (-) TimerEvent: {}
+[4.569824] (-) TimerEvent: {}
+[4.635280] (task2) JobEnded: {'identifier': 'task2', 'rc': 0}
+[4.647836] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+VAR
+	LaserSensor : MyFilterFB;
+	LaserSensor2 : MyFilterFB;
+	PalletLightBarrierSensor1 : MyFilterFB;
+	PalletLightBarrierSensor2 : MyFilterFB;
+END_VAR

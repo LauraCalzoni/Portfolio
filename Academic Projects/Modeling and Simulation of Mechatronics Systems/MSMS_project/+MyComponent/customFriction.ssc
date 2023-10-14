@@ -1,0 +1,36 @@
+component customFriction < foundation.mechanical.rotational.branch
+% Rotational Branch
+% Defines a rotational branch with R and C external nodes.
+% Also defines associated through and across variables.
+
+% Copyright 2005-2013 The MathWorks, Inc.
+
+parameters
+    brkwy_trq = { 25, 'N*m' };          % Breakaway friction torque
+    brkwy_vel = { 0.1, 'rad/s' };       % Breakaway friction velocity
+    Col_trq_p = { 0.008, 'N*m' };          % Positive Coulomb friction torque
+    Col_trq_m = { -0.007, 'N*m' };          % Negative Coulomb friction torque
+    visc_coef = { 6.4e-4 , 'N*m*s/rad' };  % Viscous friction coefficient
+end
+
+equations
+
+    % Parameter range checking
+    assert(brkwy_trq>0)
+    assert(brkwy_vel>0)
+    assert(Col_trq_p>0)
+    assert(Col_trq_m<0)
+    assert(Col_trq_p<=brkwy_trq)
+    assert(abs(Col_trq_m)<=brkwy_trq)
+    assert(visc_coef>=0)
+
+    % Torque is a combination of viscous, and Coulomb losses
+    if(w > 0)
+        t == visc_coef * w + Col_trq_p;
+    else
+        t == visc_coef * w + Col_trq_m;
+    end
+
+end
+
+end

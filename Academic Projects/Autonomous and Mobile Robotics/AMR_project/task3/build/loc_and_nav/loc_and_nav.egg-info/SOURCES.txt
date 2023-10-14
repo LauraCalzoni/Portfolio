@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch/task3.launch.py
+loc_and_nav/__init__.py
+loc_and_nav/loc_and_nav.py
+loc_and_nav/localization.py
+loc_and_nav/nav_to_pose.py
+loc_and_nav/robot_mover.py
+loc_and_nav.egg-info/PKG-INFO
+loc_and_nav.egg-info/SOURCES.txt
+loc_and_nav.egg-info/dependency_links.txt
+loc_and_nav.egg-info/entry_points.txt
+loc_and_nav.egg-info/requires.txt
+loc_and_nav.egg-info/top_level.txt
+loc_and_nav.egg-info/zip-safe
+resource/loc_and_nav

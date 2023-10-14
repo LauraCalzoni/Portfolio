@@ -1,0 +1,71 @@
+[2.501s] Invoking command in '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/task2/src/task2': PYTHONPATH=/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/task2 build --build-base /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build install --prefix /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2 --record /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log --single-version-externally-managed
+[3.038s] running egg_info
+[3.044s] creating ../../../build/task2/task2.egg-info
+[3.050s] writing ../../../build/task2/task2.egg-info/PKG-INFO
+[3.062s] writing dependency_links to ../../../build/task2/task2.egg-info/dependency_links.txt
+[3.071s] writing entry points to ../../../build/task2/task2.egg-info/entry_points.txt
+[3.077s] writing requirements to ../../../build/task2/task2.egg-info/requires.txt
+[3.084s] writing top-level names to ../../../build/task2/task2.egg-info/top_level.txt
+[3.107s] writing manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'
+[3.210s] reading manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'
+[3.219s] writing manifest file '../../../build/task2/task2.egg-info/SOURCES.txt'
+[3.221s] running build
+[3.222s] running build_py
+[3.226s] creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build
+[3.229s] creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib
+[3.234s] creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.237s] copying task2/goal_visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.244s] copying task2/obstacle_visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.253s] copying task2/the_agent_collision.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.262s] copying task2/the_agent_complete.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.272s] copying task2/the_agent_formation.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.280s] copying task2/the_agent_leader_follower.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.292s] copying task2/the_agent_obstacle_avoidance.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.302s] copying task2/visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.313s] copying task2/__init__.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2
+[3.323s] running install
+[3.329s] running install_lib
+[3.340s] creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.343s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/goal_visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.354s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/obstacle_visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.364s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_collision.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.379s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_complete.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.389s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_formation.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.401s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_leader_follower.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.413s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/the_agent_obstacle_avoidance.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.424s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/visualizer.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.435s] copying /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build/lib/task2/__init__.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2
+[3.447s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/goal_visualizer.py to goal_visualizer.cpython-38.pyc
+[3.465s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/obstacle_visualizer.py to obstacle_visualizer.cpython-38.pyc
+[3.480s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_collision.py to the_agent_collision.cpython-38.pyc
+[3.496s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_complete.py to the_agent_complete.cpython-38.pyc
+[3.511s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_formation.py to the_agent_formation.cpython-38.pyc
+[3.545s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_leader_follower.py to the_agent_leader_follower.cpython-38.pyc
+[3.568s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/the_agent_obstacle_avoidance.py to the_agent_obstacle_avoidance.cpython-38.pyc
+[3.589s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/visualizer.py to visualizer.cpython-38.pyc
+[3.602s] byte-compiling /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2/__init__.py to __init__.cpython-38.pyc
+[3.611s] running install_data
+[3.617s] creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/ament_index
+[3.621s] creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/ament_index/resource_index
+[3.625s] creating /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/ament_index/resource_index/packages
+[3.628s] copying resource/task2 -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/ament_index/resource_index/packages
+[3.636s] copying package.xml -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2
+[3.649s] copying launch/task2_formation.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2
+[3.750s] copying launch/task2_leader_follower.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2
+[3.804s] copying launch/task2_collision.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2
+[3.859s] copying launch/task2_complete.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2
+[3.873s] copying launch/task2_obstacle_avoidance.launch.py -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2
+[3.959s] copying resource/rviz_config.rviz -> /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/share/task2
+[3.972s] running install_egg_info
+[3.983s] Copying ../../../build/task2/task2.egg-info to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages/task2-0.0.0-py3.8.egg-info
+[4.079s] running install_scripts
+[4.168s] Installing goal_visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[4.179s] Installing obstacle_visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[4.188s] Installing the_agent_collision script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[4.202s] Installing the_agent_complete script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[4.214s] Installing the_agent_formation script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[4.223s] Installing the_agent_leader_follower script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[4.235s] Installing the_agent_obstacle_avoidance script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[4.247s] Installing visualizer script to /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/task2
+[4.257s] writing list of installed files to '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log'
+[4.397s] Invoked command in '/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/task2/src/task2' returned '0': PYTHONPATH=/media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/task2 build --build-base /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/build install --prefix /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/install/task2 --record /media/sf_DAS_Group12_project_updated/DAS_Group12_project_updated/task2/build/task2/install.log --single-version-externally-managed

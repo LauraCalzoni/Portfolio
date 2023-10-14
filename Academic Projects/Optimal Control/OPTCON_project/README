@@ -1,0 +1,29 @@
+Aircraft Project - Group 15
+
+Laura Calzoni
+Jacopo Merlo Pich
+Francesca Paradiso
+
+Necessary library to execute the code:
+- numpy
+- matplotlib
+- scipy
+- pygame (for the animation)
+
+In the text below we will explain the structure of our python project.
+We devided the problem in multiple functions that helped us to achive our result, the functions are grouped depending on their type:
+
+"Cost.py": In this file we can find all the auxiliary functions that allows us to calculate single stage cost, terminal cost and full cost. We have also defined the matrices of weights which allow us to make choices regarding the importance of the states variables to chase.
+
+"Dynamics.py": here we define all the parts connected to the non linear dynamics of the aircraft. We have defined 3 functions: "dynamics()" that gives the next state of my system given the previus one, "full_dyn()" that loops it and returns an array that describes the whole dynamics over time TT starting from an initial state. We defined also two functions called "derivatives()" and "hessian()" to get respectively the gradients and the hessians of the dynamics.
+
+"utils.py": here we defined auxiliary functions that help us in different type of tasks: "sigmoid_fnc()" provides a properly defined sigmoidal trajectory as well as its derivatives necessary to compute the reference trajectory. With "reference_position()" we rescaled the sigmoid to have the desired starting point and finishing point. The function "solver()" computes the solutions of two different non linear systems in two unknowns depending on the task.
+Lastly the function "plot_graph()" plots all the graphs in the project.
+
+"solver_ltv_LQR.py": we utilized the solver seen during the lab courses to solve the Riccati equation present in the Newton's method.
+
+"simulation.py": in this file the main becomes a function that can be called by our animation. In fact the whole animation, made with "pygame" and written in the "plane_pygame" folder, is costumize in order to call the main with the specific task when the relative button is pressed. All the code is executing while the "Loading" screen appears, when the convergence is achieved the animation is ready to plot the trajectories obtained with the algorithm.
+
+"main.py": here we have the main of the project where the Newton's method is implemented, the variable "step" at the beginning of the code decide the task to execute later in the code. To introuce pyhisical limits the variable "phy_lim" must be set to True.
+
+In the folder "armijo_plot","assets", "plot_phy_lim", "plot_standard" we have respectively the plots of some Armijo iterations, the images for the animation, the plots with physics limits and the plots without physical limit for each task.

@@ -1,0 +1,5 @@
+[console_scripts]
+loc_and_nav = loc_and_nav.loc_and_nav:main
+localization = loc_and_nav.localization:main
+nav_to_pose = loc_and_nav.nav_to_pose:main
+

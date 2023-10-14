@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="SignalHand"
+      Disable="false"
+      Source="SignalHandler"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\SignalHand\Main.st.var" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\SignalHandler\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\SignalHandler\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="Crane"
+      Disable="false"
+      Source="Crane"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\Crane\Main.st.var" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\Crane\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\Crane\Variables.var" />
+    </Task>
+    <Task
+      Name="ComTCP_P"
+      Disable="false"
+      Source="Libraries.ComTCP.ComTCP_P"
+      Language="ANSIC">
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\Libraries\ComTCP\ComTCP_P\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\Libraries\ComTCP\ComTCP_P\Variables.var" />
+    </Task>
+    <Task
+      Name="Feeder"
+      Disable="false"
+      Source="Feeder"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\Feeder\Main.st.var" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\Feeder\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\Feeder\Variables.var" />
+    </Task>
+    <Task
+      Name="InputBridg"
+      Disable="false"
+      Source="InputBridge"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\InputBridg\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\InputBridg\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\InputBridg\Exit.st.var" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\InputBridge\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\InputBridge\Variables.var" />
+    </Task>
+    <Task
+      Name="OutputBrid"
+      Disable="false"
+      Source="OutputBridge"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\OutputBrid\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\OutputBrid\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\OutputBrid\Exit.st.var" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\OutputBridge\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\OutputBridge\Variables.var" />
+    </Task>
+    <Task
+      Name="PalletHand"
+      Disable="false"
+      Source="PalletHandler"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\PalletHand\Main.st.var" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\PalletHandler\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\PalletHandler\Variables.var" />
+    </Task>
+    <Task
+      Name="MainContro"
+      Disable="false"
+      Source="MainControl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\MainContro\Main.st.var" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\MainControl\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\MainControl\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="InputFilte"
+      Disable="false"
+      Source="InputFilter"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Temp\Objects\Config1\X20CP1382\InputFilte\Main.st.var" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\InputFilter\Types.typ" />
+      <File
+        Path="C:\Users\jacop\Documents\GitHub\AutomationEngineering\Courses\ASDP\PallettizerProj2_SM\PallettizerProj2_SM\Logical\InputFilter\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>
